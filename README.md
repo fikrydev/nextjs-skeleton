@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 💀 NextJS Skeleton
 
-## Getting Started
+Kickstart your NextJS App using **💀NextJS Skeleton** 
 
-First, run the development server:
+### 🥙 Filled with:
+- [🍃 TailwindCSS](https://tailwindcss.com)
+- [🔧 ESLint](https://eslint.org/) 
+- [💅 Stylelint](https://stylelint.io/)
+- [✨ Prettier](https://prettier.io/)
+- [🐶 Husky](https://typicode.github.io/husky/) `pre-commit` hook for [lint-staged](https://github.com/okonet/lint-staged)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### 🧶 Yarn Command:
+- `yarn run dev` Run dev build on localhost
+- `yarn run build` Build app intu `.next` folder
+- `yarn run eslint` Fix code using ESlint
+- `yarn run stylelint` Lint CSS using Stylelint
+- `yarn run format` Format code with Prettier
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 👨‍💻 Setup VSCode:
+- Disable CSS, Sass, and Less validation in Vscode settings
+- Install extentions for TailwindCSS, ESlint, Stylelint, and Prettier
+### Limitation
+- No support for Sass and Less for Stylelint
