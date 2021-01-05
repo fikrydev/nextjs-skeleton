@@ -37,6 +37,14 @@
     ],
     "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
     "react/jsx-props-no-spreading": "off",
-    "react/jsx-one-expression-per-line": "off"
+    "react/jsx-one-expression-per-line": "off",
+    "import/extensions": ["error", "never"]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
   }
 }
